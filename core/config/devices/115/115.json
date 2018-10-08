@@ -1,0 +1,61 @@
+{
+    "115": {
+        "name": "[AC] Variateur",
+        "actuator" : "1",
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "On",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "LIGHT_ON"
+		                },
+                        "isVisible": 0,
+                        "logicalId": "0B11002F #ID# 03010F00",
+                        "updateCmdId": "Etat",
+                        "updateCmdToValue": "1"
+                    },
+                    {
+                        "name": "Off",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "LIGHT_OFF"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0B11002F #ID# 03000000",
+                        "updateCmdId": "Etat",
+                        "updateCmdToValue": "0"
+                    },
+                    {
+                        "name": "Intensité",
+                        "type": "action",
+                        "subtype": "slider",
+                        "display": {
+		                    "generic_type": "LIGHT_SLIDER"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0B11002F #ID# 03020 #slider# 00",
+                        "updateCmdId": "Etat",
+                        "updateCmdToValue": "1"
+                    },
+                    {
+                        "name": "Etat",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "LIGHT_STATE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 0,
+                        "unite": "",
+                        "eventOnly": 1
+                    }
+                ]
+            }
+        }
+    }
+}

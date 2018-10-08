@@ -1,0 +1,805 @@
+{
+    "52": {
+        "name": "Température et Humidité",
+        "subtype": {
+            "01": {
+                "name": "THGN122/123, THGN132, THGR122/228/238/268",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "HUMIDITY"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERIE"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "02": {
+                "name": "THGR810, THGN800",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "HUMIDITY"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "03": {
+                "name": "RTGR328",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "HUMIDITY"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "04": {
+                "name": "THGR328",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "HUMIDITY"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "05": {
+                "name": "WTGR800",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "HUMIDITY"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "06": {
+                "name": "THGR918, THGRN228, THGN50",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "HUMIDITY"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "07": {
+                "name": "TFA TS34C, Cresta",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "HUMIDITY"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "08": {
+                "name": "WT260,WT260H,WT440H,WT450,WT450H",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "HUMIDITY"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "09": {
+                "name": "Viking 02035, 02038",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "HUMIDITY"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "0A": {
+                "name": "Rubicson,IW008T,TX95,Xiron-EN6,WH5",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "HUMIDITY"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "0B": {
+                "name": "EW109",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "HUMIDITY"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "0C": {
+                "name": "XH300",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "HUMIDITY"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "0D": {
+                "name": "TH13",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "HUMIDITY"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "0E": {
+                "name": "Alecto WS3500, WS4500, Auriol H13726, Hama EWS1500, Meteoscan W155/W160,Ventus WS155",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "HUMIDITY"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        
+                        "logicalId": "humidity"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "1A": {
+        "name": "Télécommande RTS Somfy",
+        "subtype": {
+            "00": {
+                "name": "Défaut",
+                "commands": []
+            }
+        }
+    }
+}

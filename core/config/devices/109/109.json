@@ -1,0 +1,64 @@
+{
+    "109": {
+        "name": "[BlindsT1] Volet Ematronic",
+        "actuator" : "1",
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                {
+                    "name": "Monter",
+                    "type": "action",
+                    "subtype": "other",
+                    "display": {
+	                    "generic_type": "FLAP_UP"
+	                },
+                    "isVisible": 1,
+                    "logicalId": "09190300 #ID# 000000",
+                    "display": {
+                        "icon": "<i class=\"fa fa-arrow-up\"><\/i>"
+                    }
+                },
+                {
+                    "name": "Stop",
+                    "type": "action",
+                    "subtype": "other",
+                    "display": {
+	                    "generic_type": "FLAP_STOP"
+	                },
+                    "isVisible": 1,
+                    "logicalId": "09190300 #ID# 000200",
+                    "display": {
+                        "icon": "<i class=\"fa fa-stop\"><\/i>"
+                    }
+                },
+                {
+                    "name": "Descendre",
+                    "type": "action",
+                    "subtype": "other",
+                    "display": {
+	                    "generic_type": "FLAP_DOWN"
+	                },
+                    "isVisible": 1,
+                    "logicalId": "09190300 #ID# 000100",
+                    "display": {
+                        "icon": "<i class=\"fa fa-arrow-down\"><\/i>"
+                    }
+                },
+                {
+                    "name": "Reset",
+                    "type": "action",
+                    "subtype": "other",
+                    "display": {
+	                    "generic_type": "DONT"
+	                },
+                    "isVisible": 0,
+                    "logicalId": "09190300 #ID# 000300",
+                    "updateCmdId": "Etat",
+                    "updateCmdToValue": "1"
+                }
+                ]
+                }
+            }
+        }
+}

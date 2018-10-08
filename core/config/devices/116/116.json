@@ -1,0 +1,50 @@
+{
+    "116": {
+        "name": "[AC] Prise/Volet DIO",
+        "actuator" : "1",
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "On",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_ON"
+		                },
+                        "isVisible": 0,
+                        "logicalId": "0B110047 #ID# 01010F70",
+                        "updateCmdId": "Etat",
+                        "updateCmdToValue": "1"
+                    },
+                    {
+                        "name": "Off",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_OFF"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0B110047 #ID# 01000070",
+                        "updateCmdId": "Etat",
+                        "updateCmdToValue": "0"
+                    },
+                    {
+                        "name": "Etat",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "ENERGY_STATE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 0,
+                        "unite": "",
+                         "logicalId": "bt1",
+                        "eventOnly": 1
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "71": {
+        "name": "RFXmeter",
+        "subtype": {
+            "00": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "Puissance",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "POWER"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "W",
+                        
+                        "logicalId": "power"
+                    }
+                ]
+            }
+        }
+    }
+}

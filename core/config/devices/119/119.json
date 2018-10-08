@@ -1,0 +1,20 @@
+{
+    "119": {
+        "name": "[AE] Motorisation porte de garage Blyss",
+        "actuator" : "1",
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "Toggle",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 1,
+                        "logicalId": "0B150001 #ID# 410100000000"
+                    }
+                ]
+            }
+        }
+    }
+}

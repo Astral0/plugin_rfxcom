@@ -1,0 +1,64 @@
+{
+    "55": {
+        "name": "Pluie",
+        "subtype": {
+            "02": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "Rainrate",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "RAIN_CURRENT"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "mm\/h",
+                        
+                        "logicalId": "rainrate"
+                    },
+                    {
+                        "name": "Pluie totale",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "RAIN_TOTAL"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "mm",
+                        
+                        "logicalId": "raintotal"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            }
+        }
+    }
+}

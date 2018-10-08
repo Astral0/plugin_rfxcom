@@ -1,0 +1,93 @@
+{
+    "106": {
+        "name": "[Lighting4] Prise Rising Sun D",
+        "actuator" : "1",
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "On D1",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_ON"
+		                },
+                        "isVisible": 0,
+                        "logicalId": "0710061044010100"
+                    },
+                    {
+                        "name": "Off D1",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_OFF"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0710061044010000"
+                    },
+                    {
+                        "name": "On D2",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_ON"
+		                },
+                        "isVisible": 0,
+                        "logicalId": "0710061044020100"
+                    },
+                    {
+                        "name": "Off D2",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_OFF"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0710061044020000"
+                    },
+                    {
+                        "name": "On D3",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_ON"
+		                },
+                        "isVisible": 0,
+                        "logicalId": "0710061044030100"
+                    },
+                    {
+                        "name": "Off D3",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_OFF"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0710061044030000"
+                    },
+                    {
+                        "name": "On D4",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_ON"
+		                },
+                        "isVisible": 0,
+                        "logicalId": "0710061044040100"
+                    },
+                    {
+                        "name": "Off D4",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_OFF"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0710061044040000"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "108": {
+        "name": "[AC] Prise Chacon",
+        "actuator" : "1",
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "On",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_ON"
+		                },
+                        "isVisible": 0,
+                        "logicalId": "chacon(03,01)",
+                        "configuration" : {
+                            "updateCmdId": "Etat",
+                            "updateCmdToValue": "1"
+                        }
+                    },
+                    {
+                        "name": "Off",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_ON"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "chacon(03,00)",
+                        "configuration" : {
+                            "updateCmdId": "Etat",
+                            "updateCmdToValue": "0"
+                        }
+                    },
+                    {
+                        "name": "Etat",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "ENERGY_STATE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 0,
+                        "unite": "",
+                        "eventOnly": 1
+                    }
+                ]
+            }
+        }
+    }
+}

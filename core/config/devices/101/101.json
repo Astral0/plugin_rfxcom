@@ -1,0 +1,67 @@
+{
+    "101": {
+        "name": "[Somfy] RTS Moteur",
+        "actuator" : "1",
+        "id_size" : 6,
+        "instruction" : "- Couper le courant de tous vos périphériques Somfy à part celui à appairer<br/>- Maintenez le bouton programme de votre télécommande Somfy jusqu'a ce que le périphérique réponde<br/>- Dans Jeedom sur la ligne de la commande programme appuyez sur test<br/>- Groupe = unit number (RFXmngr)<br/>- Groupe 00 permets de contrôler tous les stores ayant le même ID",
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "Programme",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "DONT"
+		                },
+                        "isVisible": 0,
+                        "logicalId": "0C1A0000 #ID# #GROUP# 0700000000",
+                        "configuration" : {
+                            "group" : "01"
+                        }
+                    },
+                    {
+                        "name": "Monter",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "FLAP_UP"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0C1A0000 #ID# #GROUP# 0100000000",
+                        "configuration" : {
+                            "group" : "01"
+                        }
+                    },
+                    {
+                        "name": "Descendre",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "FLAP_DOWN"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0C1A0000 #ID# #GROUP# 0300000000",
+                        "configuration" : {
+                            "group" : "01"
+                        }
+                    },
+                    {
+                        "name": "Stop",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "FLAP_STOP"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0C1A0000 #ID# #GROUP#0000000000",
+                        "configuration" : {
+                            "group" : "01"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

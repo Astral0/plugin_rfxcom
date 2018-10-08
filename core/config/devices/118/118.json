@@ -1,0 +1,49 @@
+{
+    "118": {
+        "name": "Prises Eurodomest",
+        "actuator" : "1",
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "On",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_ON"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "07030100176E2B5E",
+                        "updateCmdId": "Etat",
+                        "updateCmdToValue": "1"
+                    },
+                    {
+                        "name": "Off",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_OFF"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "07030101176E2B5C",
+                        "updateCmdId": "Etat",
+                        "updateCmdToValue": "0"
+                    },
+                    {
+                        "name": "Etat",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "ENERGY_STATE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 0,
+                        "unite": "",
+                        "eventOnly": 1
+                    }
+                ]
+            }
+        }
+    }
+}

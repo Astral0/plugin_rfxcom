@@ -1,0 +1,77 @@
+{
+    "58": {
+        "name": "Date et heure",
+        "subtype": {
+            "01": {
+                "name": "Défaut 1",
+                "commands": [
+                    {
+                        "name": "Heure",
+                        "type": "info",
+                        "subtype": "string",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "time"
+                    },
+                    {
+                        "name": "Date",
+                        "type": "info",
+                        "subtype": "string",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "date"
+                    },
+                    {
+                        "name": "Jour de la semaine",
+                        "type": "info",
+                        "subtype": "string",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "dow"
+                    },
+                     {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    }
+                ]
+            }
+        }
+    }
+}

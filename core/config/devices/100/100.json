@@ -1,0 +1,49 @@
+{
+    "100": {
+        "name": "[AC] Prise DIO",
+        "actuator" : "1",
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "On",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "POWER_ON"
+		                },
+                        "isVisible": 0,
+                        "logicalId": "0B110000 #ID# 09010F90",
+                        "updateCmdId": "Etat",
+                        "updateCmdToValue": "1"
+                    },
+                    {
+                        "name": "Off",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "POWER_OFF"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0B110000 #ID# 09000090",
+                        "updateCmdId": "Etat",
+                        "updateCmdToValue": "0"
+                    },
+                    {
+                        "name": "Etat",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "POWER_STATE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 0,
+                        "unite": "",
+                        "eventOnly": 1
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,412 @@
+{
+    "20": {
+        "name": "Sécurity 1",
+        "subtype": {
+            "00": {
+                "name": "X10 security door/window sensor",
+                "category": {
+                    "security": 1
+                },
+                "commands": [
+                    {
+                        "name": "Alerte",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "OPENING"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "",
+                        
+                        "logicalId": "status",
+                        "configuration": {
+                            "returnStateTime": "4",
+                            "returnStateValue": "0"
+                        },
+                        "display": {
+                            "invertBinary": 1
+                        }
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    }
+                ]
+            },
+            "01": {
+                "name": "Oregon motion sensor",
+                "category": {
+                    "security": 1
+                },
+                "commands": [
+                    {
+                        "name": "Alerte",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "PRESENCE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "",
+                        
+                        "logicalId": "status",
+                        "configuration": {
+                            "returnStateTime": "4",
+                            "returnStateValue": "0"
+                        },
+                        "display": {
+                            "invertBinary": 1
+                        }
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "DONT"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    }
+                ]
+            },
+            "02": {
+                "name": "X10 security motion sensor",
+                "category": {
+                    "security": 1
+                },
+                "commands": [
+                    {
+                        "name": "Status",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "PRESENCE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "",
+                        
+                        "logicalId": "status",
+                        "configuration": {
+                            "returnStateTime": "4",
+                            "returnStateValue": "0"
+                        },
+                        "display": {
+                            "invertBinary": 1
+                        }
+                    },
+                    {
+                        "name": "Armement",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "",
+                        
+                        "logicalId": "arm"
+                    },
+                    {
+                        "name": "Light",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "",
+                        
+                        "logicalId": "light_1"
+                    },
+                    {
+                        "name": "Light 2",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "",
+                        
+                        "logicalId": "light_2"
+                    },
+                    {
+                        "name": "Panic",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "",
+                        
+                        "logicalId": "panic",
+                        "configuration": {
+                            "returnStateTime": "4",
+                            "returnStateValue": "0"
+                        }
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    }
+                ]
+            },
+            "03": {
+                "name": "X10 security remote",
+                "category": {
+                    "security": 1
+                },
+                "commands": [
+                    {
+                        "name": "Alerte",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "",
+                        
+                        "logicalId": "status",
+                        "configuration": {
+                            "returnStateTime": "4",
+                            "returnStateValue": "0"
+                        },
+                        "display": {
+                            "invertBinary": 1
+                        }
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    }
+                ]
+            },
+            "06": {
+                "name": "KD101",
+                "category": {
+                    "security": 1
+                },
+                "commands": [
+                    {
+                        "name": "Alerte",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "",
+                        
+                        "logicalId": "status",
+                        "configuration": {
+                            "returnStateTime": "4",
+                            "returnStateValue": "0"
+                        },
+                        "display": {
+                            "invertBinary": 1
+                        }
+                    },
+                    {
+                        "name": "Panic",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "DONT"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "08200333 #ID# 0670"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    }
+                ]
+            },
+            "08": {
+                "name": "Visonic CodeSecure",
+                "category": {
+                    "security": 1
+                },
+                "commands": [
+                    {
+                        "name": "Alerte",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "",
+                        
+                        "logicalId": "status",
+                        "configuration": {
+                            "returnStateTime": "4",
+                            "returnStateValue": "0"
+                        },
+                        "display": {
+                            "invertBinary": 1
+                        }
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    },
+                    {
+                        "name": "Panic",
+                        "type": "action",
+                        "other": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 0,
+                        "unite": "",
+                        "logicalId": "08200306 #ID# 0600",
+                        "display": {
+                            "icon": "icon jeedom-alerte2"
+                        }
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    }
+                ]
+            }
+        }
+    }
+}

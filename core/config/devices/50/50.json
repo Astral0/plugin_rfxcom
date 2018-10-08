@@ -1,0 +1,447 @@
+{
+    "50": {
+        "name": "Température",
+        "subtype": {
+            "01": {
+                "name": "THR128/138, THC138",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "02": {
+                "name": "THC238/268,THN132,THWR288,THRN122,THN122,AW129/131",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "03": {
+                "name": "THWR800",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "04": {
+                "name": "RTHN318",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "05": {
+                "name": "La Crosse TX2, TX3, TX4, TX17",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "06": {
+                "name": "TS15C",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "BATTERY"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "07": {
+                "name": "Viking 02811",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "08": {
+                "name": "La Crosse WS2300",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "09": {
+                "name": "RUBiCSON",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            },
+            "0A": {
+                "name": "TFA 30.3133",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "TEMPERATURE"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Batterie",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "BATTERY"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "battery"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "GENERIC"
+                        },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            }
+        }
+    }
+}

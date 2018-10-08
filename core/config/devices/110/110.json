@@ -1,0 +1,56 @@
+{
+    "110": {
+        "name": "[AD] Prise OTIO",
+        "actuator" : "1",
+        "id_size" : 6,
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "On",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_ON"
+		                },
+                        "isVisible": 0,
+                        "logicalId": "0A14041D #ID# #GROUP# 010079",
+                        "configuration" : {
+                            "updateCmdId": "Etat",
+                            "updateCmdToValue": "1",
+                            "group" : "01"
+                        }                    
+                    },
+                    {
+                        "name": "Off",
+                        "type": "action",
+                        "subtype": "other",
+                        "display": {
+		                    "generic_type": "ENERGY_OFF"
+		                },
+                        "isVisible": 1,
+                        "logicalId": "0A14041E #ID# #GROUP# 000079",
+                        "configuration" : {
+                            "updateCmdId": "Etat",
+                            "updateCmdToValue": "0",
+                            "group" : "01"
+                        }  
+                    },
+                    {
+                        "name": "Etat",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "ENERGY_STATE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 0,
+                        "unite": "",
+                        "eventOnly": 1
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "14": {
+        "name": "Otio (14)",
+        "subtype": {
+            "00": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            }
+        }
+    }
+}

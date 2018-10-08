@@ -1,0 +1,157 @@
+{
+    "143": {
+        "name": "[MCZ] Poele MCZ",
+        "actuator" : "1",
+        "subtype": {
+            "01": {
+                "name": "1 fan model",
+                "commands": [
+                    {
+                        "name": "Ventilateur",
+                        "type": "action",
+                        "subtype": "slider",
+                        "configuration" : {
+                            "minValue" : 1,
+                            "maxValue" : 6
+                        },
+                        "isVisible": 1,
+                        "logicalId": "fan"
+                    },
+                    {
+                        "name": "Flamme",
+                        "type": "action",
+                        "subtype": "slider",
+                        "configuration" : {
+                            "minValue" : 1,
+                            "maxValue" : 6
+                        },
+                        "isVisible": 1,
+                        "logicalId": "flame"
+                    },
+                    {
+                        "name": "Off",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 1,
+                        "logicalId": "off"
+                    },
+                    {
+                        "name": "Manuel",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 1,
+                        "logicalId": "manual"
+                    },
+                    {
+                        "name": "Auto",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 1,
+                        "logicalId": "auto"
+                    },
+                    {
+                        "name": "Eco",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 1,
+                        "logicalId": "eco"
+                    },
+                    {
+                        "name": "Bip on",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 0,
+                        "logicalId": "bipon"
+                    },
+                    {
+                        "name": "Bip off",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 0,
+                        "logicalId": "bipoff"
+                    }
+                ]
+            },
+            "02": {
+                "name": "2 fan model",
+                "commands": [
+                    {
+                        "name": "Ventilateur",
+                        "type": "action",
+                        "subtype": "slider",
+                        "configuration" : {
+                            "minValue" : 1,
+                            "maxValue" : 6
+                        },
+                        "isVisible": 1,
+                        "logicalId": "fan"
+                    },
+                    {
+                        "name": "Ventilateur 2",
+                        "type": "action",
+                        "subtype": "slider",
+                        "configuration" : {
+                            "minValue" : 1,
+                            "maxValue" : 6
+                        },
+                        "isVisible": 1,
+                        "logicalId": "fan2"
+                    },
+                    {
+                        "name": "Flamme",
+                        "type": "action",
+                        "subtype": "slider",
+                        "configuration" : {
+                            "minValue" : 1,
+                            "maxValue" : 6
+                        },
+                        "isVisible": 1,
+                        "logicalId": "flame"
+                    },
+                    {
+                        "name": "Off",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 1,
+                        "logicalId": "off"
+                    },
+                    {
+                        "name": "Manuel",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 1,
+                        "logicalId": "manual"
+                    },
+                    {
+                        "name": "Auto",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 1,
+                        "logicalId": "auto"
+                    },
+                    {
+                        "name": "Eco",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 1,
+                        "logicalId": "eco"
+                    },
+                    {
+                        "name": "Bip on",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 0,
+                        "logicalId": "bipon"
+                    },
+                    {
+                        "name": "Bip off",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 0,
+                        "logicalId": "bipoff"
+                    }
+                ]
+            }
+        }
+    }
+}

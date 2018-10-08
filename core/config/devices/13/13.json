@@ -1,0 +1,55 @@
+{
+    "13": {
+        "name": "Lighting4 (13)",
+        "subtype": {
+            "00": {
+                "name": "Défaut",
+                "commands": [
+                     {
+                        "name": "Présence",
+                        "type": "info",
+                        "subtype": "binary",
+                        "display": {
+		                    "generic_type": "PRESENCE"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "command",
+                        "configuration" : {
+                            "returnStateValue" : 0,
+                            "returnStateTime" : 1
+                        }
+                    },
+                    {
+                        "name": "Pulse",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "pulse"
+                    },
+                    {
+                        "name": "Signal",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "GENERIC"
+		                },
+                        "isVisible": 0,
+                        "isHistorized": 0,
+                        "unite": "",
+                        
+                        "logicalId": "signal"
+                    }
+                ]
+            }
+        }
+    }
+}

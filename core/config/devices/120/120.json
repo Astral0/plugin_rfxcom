@@ -1,0 +1,20 @@
+{
+    "120": {
+        "name": "[AE] Motorisation de portail à vérins Blyss",
+        "actuator" : "1",
+        "subtype": {
+            "01": {
+                "name": "Défaut",
+                "commands": [
+                    {
+                        "name": "Toggle",
+                        "type": "action",
+                        "subtype": "other",
+                        "isVisible": 1,
+                        "logicalId": "0B150001 #ID# 410100000000&&0B150001 #ID# 410100010000&&0B150001 #ID# 410100020000&&0B150001 #ID# 410100030000&&0B150001 #ID# 410100040000"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,640 @@
+{
+    "cmd": {
+        "00": "Reset the receiver/transceiver. No answer is transmitted!",
+        "01": "Not used.",
+        "02": "Get Status, return firmware versions and configuration of the interface.",
+        "03": "Set mode msg1-msg5, return firmware versions and configuration of the interface.",
+        "04": "Enable all receiving modes of the receiver/transceiver.",
+        "05": "Enable reporting of undecoded packets.",
+        "06": "Save receiving modes of the receiver/transceiver in non-volatile memory.",
+        "07": "Not used.",
+        "08": "T1 - for internal use by RFXCOM",
+        "09": "T2 - for internal use by RFXCOM"
+    },
+    "packettype": {
+        "00": {
+            "length": 14
+        },
+        "01": {
+            "length": 14,
+            "msg": {
+                "1": {
+                    "50": "310MHz",
+                    "51": "315MHz",
+                    "52": "433.92MHz",
+                    "53": "433.92MHz",
+                    "54": "433.42MHz",
+                    "55": "868.00MHz",
+                    "56": "868.00MHz FSK",
+                    "57": "868.30MHz",
+                    "58": "868.30MHz FSK",
+                    "59": "868.35MHz",
+                    "5A": "868.35MHz FSK",
+                    "5B": "868.95MHz"
+                },
+                "3": {
+                    "1": "AE Blyss",
+                    "128": "Undecoded",
+                    "16": "RSL,Revolt",
+                    "2": "Rubicson,Alecto,Banggood",
+                    "32": "Byron SX,SelectPlus",
+                    "4": "FineOffset / Viking",
+                    "64": "Imagintronix,Opus",
+                    "8": "Lightning4"
+                },
+                "4": {
+                    "1": "Mertik",
+                    "128": "Blinds T1/T2/T3/T4",
+                    "16": "Legrand CAD",
+                    "2": "AD Lightwave RF",
+                    "32": "",
+                    "4": "Hideki,TFA,Cresta,UPM",
+                    "64": "Blinds T0",
+                    "8": "La Crosse"
+                },
+                "5": {
+                    "1": "X10",
+                    "128": "Visonic",
+                    "16": "Meiantech,Atlantic",
+                    "2": "ARC",
+                    "32": "Oregon Scientific",
+                    "4": "AC",
+                    "64": "ATI/cartelectronic",
+                    "8": "HomeEasy EU"
+                },
+                "6": {
+                    "1": "Keeloq",
+                    "128": "FunkBus",
+                    "16": "",
+                    "2": "HomeConfort",
+                    "32": "",
+                    "4": "",
+                    "64": "MCZ",
+                    "8": ""
+                }
+            }
+        },
+        "02": {
+            "length": 5
+        },
+        "03": {
+            "00": "AC",
+            "01": "ARC",
+            "02": "ATI",
+            "03": "Hideki",
+            "04": "LaCrosse",
+            "05": "AD",
+            "06": "Mertik",
+            "07": "Oregon 1",
+            "08": "Oregon 2",
+            "09": "Oregon 3",
+            "0A": "Proguard",
+            "0B": "Visionic",
+            "0C": "NEC",
+            "0D": "FS20",
+            "0E": "Reserved",
+            "0F": "Blinds",
+            "10": "Rubicson",
+            "11": "AE",
+            "12": "Fineoffset"
+        },
+        "10": {
+            "00": "X10 Lightning",
+            "01": "ARC",
+            "02": "ELRO AB400D (Flamingo)",
+            "03": "Waveman",
+            "04": "Chacon EMW200",
+            "05": "IMPULS",
+            "06": "RisingSun",
+            "07": "Philips SBC",
+            "08": "Energenie ENER010",
+            "09": "Energenie 5-gang",
+            "0A": "COCO GDR2-2000R",
+            "cmd": {
+                "00": "Off",
+                "01": "On",
+                "02": "Dim",
+                "03": "Bright",
+                "05": "All/Group_Off",
+                "06": "All/Group_On",
+                "07": "Chime",
+                "FF": "Illegal cmnd received"
+            },
+            "housecode": {
+                "41": "A",
+                "42": "B",
+                "43": "C",
+                "44": "D",
+                "45": "E",
+                "46": "F",
+                "47": "G",
+                "48": "H",
+                "49": "I",
+                "4A": "J",
+                "4B": "K",
+                "4C": "L",
+                "4D": "M",
+                "4E": "N",
+                "4F": "O",
+                "50": "P"
+            },
+            "length": 8
+        },
+        "11": {
+            "cmd": {
+                "00": "Off",
+                "01": "On",
+                "02": "Set level",
+                "03": "Group_Off",
+                "04": "Group_On",
+                "05": "Set Group_Level"
+            },
+            "dimlevel": {
+                "00": "0",
+                "01": "6",
+                "02": "12",
+                "03": "18",
+                "04": "24",
+                "05": "30",
+                "06": "36",
+                "07": "42",
+                "08": "48",
+                "09": "54",
+                "0A": "60",
+                "0B": "66",
+                "0C": "72",
+                "0D": "78",
+                "0E": "84",
+                "0F": "100"
+            },
+            "length": 12
+        },
+        "12": {
+            "cmd": {
+                "00": "Bright",
+                "08": "Dim",
+                "10": "On",
+                "11": "Level 1",
+                "12": "Level 2",
+                "13": "Level 3",
+                "14": "Level 4",
+                "15": "Level 5",
+                "16": "Level 6",
+                "17": "Level 7",
+                "18": "Level 8",
+                "19": "Level 9",
+                "1A": "Off",
+                "1C": "Program"
+            },
+            "length": 9
+        },
+        "13": {
+            "00": "ARC",
+            "cmd": {
+                "14": "no_motion",
+                "15": "motion"
+            },
+            "housecode": {
+                "00": "A",
+                "01": "I",
+                "04": "E",
+                "05": "M",
+                "10": "C",
+                "11": "K",
+                "14": "G",
+                "15": "O",
+                "40": "B",
+                "41": "J",
+                "44": "F",
+                "45": "N",
+                "50": "D",
+                "51": "L",
+                "54": "H",
+                "55": "P"
+            },
+            "length": 10
+        },
+        "14": {
+            "00": "LightwaveRF, Siemens",
+            "01": "EMW100 GAO/Everflourish",
+            "02": "BBSB new types",
+            "03": "MDREMOTE LED dimmer",
+            "04": "Conrad RSL2",
+            "05": "Livolo",
+            "06": "RGB TRC02",
+            "cmd": {
+                "0": {
+                    "00": "Off",
+                    "01": "On",
+                    "02": "Group_off",
+                    "03": "Mood1",
+                    "04": "Mood2",
+                    "05": "Mood3",
+                    "06": "Mood4",
+                    "07": "Mood5",
+                    "08": "Reserved",
+                    "09": "Reserved",
+                    "0A": "Unlock",
+                    "0B": "Lock",
+                    "0C": "All lock",
+                    "0D": "Close",
+                    "0E": "Stop",
+                    "0F": "Open",
+                    "10": "Set level"
+                },
+                "1": {
+                    "00": "Off",
+                    "01": "On",
+                    "02": "Learn"
+                },
+                "2": {
+                    "00": "Off",
+                    "01": "On",
+                    "02": "Group_Off",
+                    "03": "Group_On"
+                },
+                "3": {
+                    "00": "Power",
+                    "01": "Light",
+                    "02": "Bright",
+                    "03": "Dim",
+                    "04": "100%",
+                    "05": "50%",
+                    "06": "25%",
+                    "07": "Mode+",
+                    "08": "Speed-",
+                    "09": "Speed+",
+                    "0A": "Mode-"
+                },
+                "4": {
+                    "00": "Off",
+                    "01": "On",
+                    "02": "Group_Off",
+                    "03": "Group_On"
+                },
+                "5": {
+                    "00": "Group_Off",
+                    "01": "On/Off dimmer or gang1",
+                    "02": "Dim+ or gang2 on/off",
+                    "03": "Dim- or gang3 on/off"
+                },
+                "6": {
+                    "00": "Off",
+                    "01": "On",
+                    "02": "Bright",
+                    "03": "Dim",
+                    "04": "Color+",
+                    "05": "Color-"
+                }
+            },
+            "length": 11
+        },
+        "15": {
+            "cmd": {
+                "00": "On",
+                "01": "Off",
+                "02": "Group_On",
+                "03": "Group_Off"
+            },
+            "groupcode": {
+                "17": "K",
+                "41": "A",
+                "42": "B",
+                "43": "C",
+                "44": "D",
+                "45": "E",
+                "46": "F",
+                "47": "G",
+                "48": "H",
+                "49": "I"
+            },
+            "length": 12
+        },
+        "16": {
+            "cmd": {
+                "02": "On",
+                "06": "Off",
+                "0E": "On",
+                "69": "On"
+            },
+            "length": 8
+        },
+        "17": {
+            "length": 8
+        },
+        "18": {
+            "length": 8
+        },
+        "19": {
+            "length": 10
+        },
+        "1A": {
+            "00": "RTS",
+            "01": "RTS ext",
+            "cmd": {
+                "00": "Stop",
+                "01": "Up",
+                "02": "Up+Stop",
+                "03": "Down",
+                "04": "Down+Stop",
+                "05": "Up+Down (Connect motor)",
+                "07": "Program",
+                "08": "Program > 2 seconds",
+                "09": "Program > 7 seconds",
+                "0A": "Stop > 2 seconds",
+                "0B": "Stop > 5 seconds",
+                "0C": "Up+Down > 5 seconds",
+                "0D": "Erase this RTS remote from RFXtrx",
+                "0E": "Erase all RTS remotes from the RFXtrx"
+            },
+            "length": 13
+        },
+        "20": {
+            "length": 9,
+            "status": {
+                "00": "Normal",
+                "01": "Normal_delayed",
+                "02": "Alarm",
+                "03": "Alarm_delayed",
+                "04": "Motion",
+                "05": "No_motion",
+                "06": "Panic",
+                "07": "End_panic",
+                "08": "IR",
+                "09": "Arm_away",
+                "0A": "Arm_away_delayed",
+                "0B": "Arm_home",
+                "0C": "Arm_home_delayed",
+                "0D": "Disarm",
+                "10": "Light_1_off",
+                "11": "Light_1_on",
+                "12": "Light_2_off",
+                "13": "Light_2_on",
+                "14": "Dark_detected",
+                "15": "Light_detected",
+                "16": "Batlow",
+                "17": "Pair",
+                "80": "Normal_tamper",
+                "81": "Normal_delayed_tamper",
+                "82": "Alarm_tamper",
+                "83": "Normal_delayed_tamper",
+                "84": "Motion_tamper",
+                "85": "No_motion_tamper"
+            }
+        },
+        "28": {
+            "length": 7
+        },
+        "30": {
+            "00": {
+                "00": "A",
+                "01": "B",
+                "02": "Power",
+                "03": "TV",
+                "04": "DVD",
+                "05": "?",
+                "06": "Guide",
+                "07": "Drag",
+                "08": "VOL+",
+                "09": "VOL-",
+                "0A": "MUTE",
+                "0B": "CHAN+",
+                "0C": "CHAN-",
+                "0D": "1",
+                "0E": "2",
+                "0F": "3",
+                "10": "4",
+                "11": "5",
+                "12": "6",
+                "13": "7",
+                "14": "8",
+                "15": "9",
+                "16": "txt",
+                "17": "0",
+                "18": "Snapshot ESQ",
+                "19": "C",
+                "1A": "^",
+                "1B": "D",
+                "1C": "TV/RADIO",
+                "1D": "<",
+                "1E": "OK",
+                "1F": ">",
+                "20": "<-",
+                "21": "E",
+                "22": "v",
+                "23": "F",
+                "24": "Rewind",
+                "25": "Play",
+                "26": "Fast forward",
+                "27": "Record",
+                "28": "Stop",
+                "29": "Pause",
+                "2C": "TV",
+                "2D": "VCR",
+                "2E": "RADIO",
+                "2F": "TV Preview",
+                "30": "Channel list",
+                "31": "Video Desktop",
+                "32": "red",
+                "33": "green",
+                "34": "yellow",
+                "35": "blue",
+                "36": "rename TAB",
+                "37": "Acquire image",
+                "38": "edit image",
+                "39": "Full Screen",
+                "3A": "DVD Audio",
+                "70": "Cursor-left",
+                "71": "Cursor-right",
+                "72": "Cursor-up",
+                "73": "Cursor-down",
+                "74": "Cursor-up-left",
+                "75": "Cursor-up-right",
+                "76": "Cursor-down-right",
+                "77": "Cursor-down-left",
+                "78": "V",
+                "79": "V-End",
+                "7C": "X",
+                "7D": "X-End"
+            },
+            "length": 7,
+            "02": {
+                "00": "Mute",
+                "01": "B",
+                "02": "Power",
+                "03": "TV",
+                "04": "DVD",
+                "05": "Photo",
+                "06": "Music",
+                "07": "Drag",
+                "08": "VOL-",
+                "09": "VOL+",
+                "0A": "MUTE",
+                "0B": "CHAN+",
+                "0C": "CHAN-",
+                "0D": "1",
+                "0E": "2",
+                "0F": "3",
+                "10": "4",
+                "11": "5",
+                "12": "6",
+                "13": "7",
+                "14": "8",
+                "15": "9",
+                "16": "txt",
+                "17": "0",
+                "18": "snapshot ESQ",
+                "19": "DVD MENU",
+                "1A": "^",
+                "1B": "Setup",
+                "1C": "TV/RADIO",
+                "1D": "<",
+                "1E": "OK",
+                "1F": ">",
+                "20": "<-",
+                "21": "E",
+                "22": "v",
+                "23": "F",
+                "24": "Rewind",
+                "25": "Play",
+                "26": "Fast forward",
+                "27": "Record",
+                "28": "Stop",
+                "29": "Pause",
+                "2C": "TV",
+                "2D": "VCR",
+                "2E": "RADIO",
+                "2F": "TV Preview",
+                "30": "Channel List",
+                "31": "Video desktop",
+                "32": "red",
+                "33": "green",
+                "34": "yellow",
+                "35": "blue",
+                "36": "rename TAB",
+                "37": "Acquire image",
+                "38": "edit image",
+                "39": "Full screen",
+                "3A": "DVD Audio",
+                "70": "Cursor-left",
+                "71": "Cursor-right",
+                "72": "Cursor-up",
+                "73": "Cursor-down",
+                "74": "Cursor-up-left",
+                "75": "Cursor-up-right",
+                "76": "Cursor-down-right",
+                "77": "Cursor-down-left",
+                "78": "V",
+                "79": "V-End",
+                "7C": "X",
+                "7D": "X-End"
+            }
+        },
+        "40": {
+            "length": 10,
+            "mode": {
+                "0": "Heating",
+                "1": "Cooling"
+            },
+            "status": {
+                "0": "No status available",
+                "1": "Demand",
+                "2": "No demand",
+                "3": "Initializing"
+            }
+        },
+        "41": {
+            "length": 7
+        },
+        "42": {
+            "cmd": {
+                "0": {
+                    "00": "Off",
+                    "01": "On",
+                    "02": "Up",
+                    "03": "Down",
+                    "04": "Run Up",
+                    "05": "Run Down",
+                    "06": "Stop"
+                },
+                "1": {
+                    "00": "Off",
+                    "01": "On",
+                    "02": "Up",
+                    "03": "Down",
+                    "04": "2nd Off",
+                    "05": "2nd On"
+                }
+            },
+            "length": 9
+        },
+        "4E": {
+            "length": 11
+        },
+        "4F": {
+            "length": 11
+        },
+        "50": {
+            "length": 9
+        },
+        "51": {
+            "length": 9
+        },
+        "52": {
+            "length": 11
+        },
+        "53": {
+            "length": 10
+        },
+        "54": {
+            "length": 14
+        },
+        "55": {
+            "length": 12
+        },
+        "56": {
+            "length": 17
+        },
+        "57": {
+            "length": 10
+        },
+        "58": {
+            "length": 14
+        },
+        "59": {
+            "length": 14
+        },
+        "5A": {
+            "length": 18
+        },
+        "5B": {
+            "length": 20
+        },
+        "5C": {
+            "length": 16
+        },
+        "5D": {
+            "length": 9
+        },
+        "70": {
+            "length": 8,
+            "msg": {
+                "3": {
+                    "01": "Sensor addresses incremented",
+                    "02": "Battery low detected",
+                    "81": "No 1-wire device connected",
+                    "82": "1-Wire ROM CRC error",
+                    "83": "1-Wire device connected is not a DS18B20 or DS2438",
+                    "84": "No end of read signal received from 1-Wire device",
+                    "85": "1-Wire scratchpad CRC error"
+                }
+            }
+        },
+        "71": {
+            "length": 11
+        },
+        "72": {
+            "length": 10
+        }
+    }
+}

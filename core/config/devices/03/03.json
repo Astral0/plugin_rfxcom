@@ -1,0 +1,36 @@
+{
+    "03": {
+        "name": "Sonde",
+        "subtype": {
+            "11": {
+                "name": "Température",
+                "commands": [
+                    {
+                        "name": "Température",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+		                    "generic_type": "TEMPERATURE"
+		                },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "°C",
+                        "logicalId": "temperature"
+                    },
+                    {
+                        "name": "Humidité",
+                        "type": "info",
+                        "subtype": "numeric",
+                        "display": {
+                            "generic_type": "HUMIDITY"
+                        },
+                        "isVisible": 1,
+                        "isHistorized": 1,
+                        "unite": "%",
+                        "logicalId": "humidity"
+                    }
+                ]
+            }
+        }
+    }
+}
